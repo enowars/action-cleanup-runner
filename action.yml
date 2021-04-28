@@ -1,0 +1,6 @@
+name: 'action-cleanup-runner'
+description: 'GitHub action that automatically cleans up the self-hosted runner'
+runs:
+  using: node12
+  post: cleanup.js
+  main: index.js
