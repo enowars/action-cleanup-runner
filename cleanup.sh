@@ -10,4 +10,4 @@ docker system prune -af --volumes || true
 
 echo "cleaning up working directory..."
 shopt -s dotglob
-rm -rf *
+sudo rm -rf *
